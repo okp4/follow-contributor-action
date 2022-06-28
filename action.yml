@@ -1,0 +1,15 @@
+name: 'Follow contributor'
+description: 'Action that can be used to follow people on github'
+inputs:
+  username:
+    description: 'user to follow'
+    required: true
+  token:
+    description: 'GITHUB_TOKEN to use'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: 'user-plus'
+  color: 'purple'

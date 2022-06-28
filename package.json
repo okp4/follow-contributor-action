@@ -1,0 +1,27 @@
+{
+  "name": "follow-contributor-action",
+  "version": "1.0.0",
+  "description": "Github action that can be used to automatically follow PR authors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ad2ien/verify-user-membership.git"
+  },
+  "keywords": [
+    "github",
+    "action"
+  ],
+  "author": "OKP4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ad2ien/verify-user-membership/issues"
+  },
+  "homepage": "https://github.com/ad2ien/verify-user-membership#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@actions/github": "^5.0.3"
+  }
+}
