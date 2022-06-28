@@ -9048,19 +9048,22 @@ __nccwpck_require__.r(__webpack_exports__);
 
 
 
-run()
+run();
 
 async function run() {
-    try {
-        // Get inputs
-        const token = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("token")
-        const username = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("username")
+  try {
+    // Get inputs
+    const token = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("token");
+    const login = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("username");
 
-        result = await (0,_actions_github__WEBPACK_IMPORTED_MODULE_1__.getOctokit)(token).rest.users.follow(username)
-    } catch (error) {
-        console.log(error)
-        ;(0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.setFailed)(error.message)
-    }
+    
+    result = await (0,_actions_github__WEBPACK_IMPORTED_MODULE_1__.getOctokit)(token).rest.users.follow({
+      username: login,
+    });
+  } catch (error) {
+    console.log(error);
+    (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.setFailed)(error.message);
+  }
 }
 
 })();
