@@ -4,7 +4,8 @@
   "description": "Github action that can be used to automatically follow PR authors",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js --license licenses.txt"
   },
   "repository": {
     "type": "git",
