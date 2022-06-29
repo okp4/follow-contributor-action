@@ -5,7 +5,6 @@ run();
 
 async function run() {
   try {
-    // Get inputs
     const token = getInput('token');
     const login = getInput('username');
 

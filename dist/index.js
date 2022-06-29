@@ -9052,14 +9052,13 @@ run();
 
 async function run() {
   try {
-    // Get inputs
-    const token = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("token");
-    const login = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)("username");
+    const token = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)('token');
+    const login = (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.getInput)('username');
 
     const result = await (0,_actions_github__WEBPACK_IMPORTED_MODULE_1__.getOctokit)(token).rest.users.follow({
-      username: login,
+      username: login
     });
-    console.log("Result : " + result.status);
+    console.log('Result : ' + result.status);
   } catch (error) {
     console.log(error);
     (0,_actions_core__WEBPACK_IMPORTED_MODULE_0__.setFailed)(error.message);

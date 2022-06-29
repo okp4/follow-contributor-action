@@ -5,7 +5,7 @@ inputs:
     description: "user to follow"
     required: true
   token:
-    description: "GITHUB_TOKEN to use"
+    description: "GITHUB_TOKEN to use with user:follow right"
     required: true
 runs:
   using: "node16"

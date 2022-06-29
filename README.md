@@ -1,6 +1,6 @@
 # Follow contributor github action
 
-Just a github action to follow a contributor.
+A github action to automatically follow a contributor.
 
 ## How to use it
 
