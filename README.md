@@ -23,5 +23,6 @@ jobs:
         uses: okp4/follow-contributor-action@v1
         with:
           username: ${{ github.event.pull_request.user.login }}
+          # token allowing user:follow
           token: ${{ secrets.FOLLOW_TOKEN }}
 ```
