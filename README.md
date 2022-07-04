@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Follow user
-        uses: ad2ien/follow-contributor-action@v1
+        uses: okp4/follow-contributor-action@v1
         with:
           username: ${{ github.event.pull_request.user.login }}
           token: ${{ secrets.FOLLOW_TOKEN }}

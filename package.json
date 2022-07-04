@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ad2ien/follow-contributor-action.git"
+    "url": "git+https://github.com/okp4/follow-contributor-action.git"
   },
   "keywords": [
     "github",
@@ -19,9 +19,9 @@
   "author": "OKP4",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ad2ien/follow-contributor-action/issues"
+    "url": "https://github.com/okp4/follow-contributor-action/issues"
   },
-  "homepage": "https://github.com/ad2ien/follow-contributor-action#readme",
+  "homepage": "https://github.com/okp4/follow-contributor-action#readme",
   "dependencies": {
     "@actions/core": "^1.9.0",
     "@actions/github": "^5.0.3"
