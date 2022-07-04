@@ -1,5 +1,5 @@
 name: "Follow contributor"
-description: "Action that can be used to follow people on github"
+description: "Github action that can be used to automatically follow your projects contributors"
 inputs:
   username:
     description: "user to follow"
