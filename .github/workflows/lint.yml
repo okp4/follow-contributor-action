@@ -48,28 +48,3 @@ jobs:
         uses: ibiqlik/action-yamllint@v3.1.0
         with:
           file_or_dir: ./*.yml ./.github/**/*.yml
-
-  js-lint:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16
-
-      - name: Install Node.js dependencies
-        run: |
-          npm install eslint-config-standard --save-dev
-          npm install eslint --save-dev
-          npm ci
-
-      - name: Run linter
-        uses: wearerequired/lint-action@v1
-        with:
-          eslint: true
-          prettier: false
