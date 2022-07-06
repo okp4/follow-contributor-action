@@ -10,7 +10,7 @@ async function run(): Promise<void> {
       username: login
     });
     console.log('Result : ' + result.status);
-  } catch (error) {
+  } catch (error: unknown) {
     if (error instanceof Error) setFailed(error.message)
   }
 }
