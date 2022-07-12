@@ -1,6 +1,6 @@
 {
   "name": "follow-contributor-action",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Github action that can be used to automatically follow your projects contributors",
   "main": "lib/main.js",
   "scripts": {
