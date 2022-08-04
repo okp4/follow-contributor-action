@@ -1,4 +1,4 @@
-import {getInput, setFailed} from '@actions/core'
+import {getInput} from '@actions/core'
 import {getOctokit} from '@actions/github'
 
 async function run(): Promise<void> {
@@ -11,7 +11,11 @@ async function run(): Promise<void> {
     })
     console.log('Result : ' + result.status)
   } catch (error: unknown) {
-    if (error instanceof Error) setFailed(error.message)
+    if (error instanceof Error) {
+      console.log(error.message)
+    } else {
+      console.log(error)
+    }
   }
 }
 
