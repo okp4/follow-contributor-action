@@ -64,6 +64,10 @@ jobs:
         run: |
           yarn
 
+      - name: typescript style
+        run: |
+          yarn format-check
+
       - name: Lint typescript
         run: |
           yarn lint
