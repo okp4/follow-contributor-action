@@ -26,3 +26,5 @@ jobs:
           # token allowing user:follow
           token: ${{ secrets.FOLLOW_TOKEN }}
 ```
+
+If it's not possible to follow the input user, it won't fail as this action is not so vital.
