@@ -1,5 +1,12 @@
 # Follow contributor action
 
+# [1.1.0](https://github.com/okp4/follow-contributor-action/compare/v1.0.0...v1.1.0) (2022-08-05)
+
+
+### Features
+
+* don't fail if user is impossible to follow ([ce6c278](https://github.com/okp4/follow-contributor-action/commit/ce6c2788bccb9b0f5c5b831cb908ab816cd44535))
+
 # 1.0.0 (2022-07-12)
 
 

@@ -29,8 +29,12 @@ function run() {
             console.log('Result : ' + result.status);
         }
         catch (error) {
-            if (error instanceof Error)
-                (0, core_1.setFailed)(error.message);
+            if (error instanceof Error) {
+                console.log(error.message);
+            }
+            else {
+                console.log(error);
+            }
         }
     });
 }
