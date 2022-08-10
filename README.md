@@ -1,4 +1,4 @@
-# Follow contributor github action
+# Follow user github action
 
 [![lint](https://img.shields.io/github/workflow/status/okp4/follow-contributor-action/Lint?label=lint&style=for-the-badge)](https://github.com/okp4/follow-contributor-action/actions/workflows/lint.yml)
 [![conventional commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge)](https://conventionalcommits.org)
