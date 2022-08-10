@@ -28,3 +28,10 @@ jobs:
 ```
 
 If it's not possible to follow the input user, it won't fail as this action is not so vital.
+
+## You want to get involved? 😍
+
+Please check out OKP4 health files :
+
+- [Contributing](https://github.com/okp4/.github/blob/main/CONTRIBUTING.md)
+- [Code of conduct](https://github.com/okp4/.github/blob/main/CODE_OF_CONDUCT.md)
