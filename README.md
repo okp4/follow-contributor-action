@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Follow user
-        uses: okp4/follow-contributor-action@v1.0.0
+        uses: okp4/follow-contributor-action@v1.1.0
         with:
           username: ${{ github.event.pull_request.user.login }}
           # token allowing user:follow
