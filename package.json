@@ -12,6 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
   },
+  "engines": {
+    "node": "^16.18.0",
+    "yarn": "~1.22.17"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/okp4/follow-contributor-action.git"
