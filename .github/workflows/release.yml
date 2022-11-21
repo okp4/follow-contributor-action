@@ -38,7 +38,7 @@ jobs:
           yarn build && yarn package
 
       - name: Release project
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v3.2.0
         with:
           semantic_version: 19.0.2
           branch: main
