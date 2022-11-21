@@ -24,11 +24,18 @@ jobs:
         with:
           token: ${{ secrets.OKP4_TOKEN }}
 
-      - uses: actions/setup-node@v3
+      - name: Setup node environment (for building)
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
-      - run: npm install
-      - run: npm run build && npm run package
+          node-version: 16.18
+
+      - name: Fetch dependencies
+        run: |
+          yarn --frozen-lockfile
+
+      - name: Build project
+        run: |
+          yarn build && yarn package
 
       - name: Release project
         uses: cycjimmy/semantic-release-action@v2
