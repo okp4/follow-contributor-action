@@ -1,4 +1,5 @@
 name: "Follow contributor"
+author: "OKP4"
 description: "Github action that can be used to automatically follow your projects contributors"
 inputs:
   username:
