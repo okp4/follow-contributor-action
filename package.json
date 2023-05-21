@@ -13,7 +13,7 @@
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
   },
   "engines": {
-    "node": "^16.18.0",
+    "node": "^20.2.0",
     "yarn": "~1.22.17"
   },
   "repository": {
