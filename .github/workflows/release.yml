@@ -39,7 +39,7 @@ jobs:
 
       - name: Release project
         id: semantic
-        uses: cycjimmy/semantic-release-action@v3.4.2
+        uses: cycjimmy/semantic-release-action@v4.0.0
         with:
           semantic_version: 19.0.2
           branch: main
