@@ -39,7 +39,7 @@
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.29",
+    "@types/node": "^20.11.30",
     "@typescript-eslint/parser": "^7.3.1",
     "@vercel/ncc": "^0.38.1",
     "eslint": "^8.57.0",
